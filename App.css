@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.joke-instances{
+  background-color: chocolate;
+  border: 1px solid #282c34;
+  margin: auto;
+  width: 50%;
+  
+  align-items: center;
+  font-size: 15px;
+  font-family: 'Lucida Sans';
+  padding: 20px;
+
+}
+.dis{
+  border-radius: 1px solid #282c28;
+  background-color: chartreuse;
+  width: 50%;
+  margin: auto;
+}
+.todo-list{
+  background-color: #000;
+  margin: auto;  
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #08fc14;
+  border-radius: 2%;
+  box-shadow: 
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #000,
+    0 15px 1px -4px #08fc14;
+  padding: 30px;
+  color: #fff;
+  font-family: 'Roboto';
+  column-rule: ipx solid #08fc14;
+  column-count: 2;
+  column-gap: 50px;
+ 
+}
+.todo-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 10px 0;
+  width: 100%;
+  border-bottom: 1px solid #08fc14;
+  font-size: 15px;
+  font-weight: 100;
+  color: #fff;
+  column-count: 2;
+  column-gap: 30px;
+  
+
+}
+.form{
+  padding-inline: 5px;
+}
+
+.btn{
+  border: 1px solid #08fc14;
+  color: #fff;
+  background-color: #000;
+  margin-left: 20px ;
+  width: 15%;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.meme > .bottom {
+  bottom: 0;
+}
+
+.meme > .top {
+  top: 0;
+}
+.meme {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.meme > img {
+  width: 100%;
+}
+.meme-form {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.meme-form > input {
+  width: 45%;
+  height: 40px;
+}
+/* @media  screen and (max-width : 280px) {
+  .todo-list{
+    background-color: #000;
+    margin: auto;  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #08fc14;
+    border-radius: 2%;
+    box-shadow: 
+      0 1px 1px rgba(0,0,0,0.15),
+      0 10px 0 -5px #000,
+      0 15px 1px -4px #08fc14;
+    padding: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    column-rule: ipx solid #08fc14;
+    column-count: 2;
+    column-gap: 50px;
+    
+  }
+  .btn{
+    border: 1px solid #08fc14;
+    color: #fff;
+    background-color: #000;
+    margin: auto;
+    width: 15%;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  .h1{
+    font-weight: bold;
+    font-size: 50px;
+  }
+} */
